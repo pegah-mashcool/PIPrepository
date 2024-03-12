@@ -1,0 +1,33 @@
+package mavenci;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+
+class testM {
+	public Main main;
+
+	
+	@BeforeAll
+	static void setUpBeforeClass() throws Exception {
+	}
+	@BeforeEach
+	void setUp() throws Exception {
+	}
+
+	@Test
+	void testmaincostructor() {
+		main=new Main();
+		assertNotEquals(main,null);
+	}
+
+	@Test
+	void testadd() {
+		main=new Main();
+		assertEquals(4,main.add(2,2));
+	
+
+	}
+}

@@ -38,7 +38,7 @@ class TestMain {
 	@Test
 	void testadd() {
 		main=new Main();
-		assertEquals(4,main.add(999,2));
+		assertEquals(4,main.add(2,2));
 	}
 	@Test
 	void testsub() {

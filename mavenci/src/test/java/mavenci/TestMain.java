@@ -60,7 +60,7 @@ class TestMain {
 		assertEquals(1,main.mod(7,2));}
 	void testinc() {
 		main=new Main();
-		assertEquals(201,main.inc(200));}
+		assertEquals(2001,main.inc(2000));}
 	
 	@Test
 	void testSubADD() {

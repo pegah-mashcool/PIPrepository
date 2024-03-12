@@ -17,5 +17,15 @@ public class Main {
 		return i-j;
 	}
 
+	public Integer mul(int i, int j) {
+		// TODO Auto-generated method stub
+		return i*j;
+	}
+
+	public Integer div(int i, int j) {
+		// TODO Auto-generated method stub
+		return i/j;
+	}
+
 
 }

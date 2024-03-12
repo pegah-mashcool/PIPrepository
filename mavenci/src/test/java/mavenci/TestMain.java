@@ -54,6 +54,10 @@ class TestMain {
 	void testdiv() {
 		main=new Main();
 		assertEquals(4,main.div(100,25));}
+	@Test
+	void testmod() {
+		main=new Main();
+		assertEquals(1,main.mod(7,2));}
 	
 	@Test
 	void testSubADD() {

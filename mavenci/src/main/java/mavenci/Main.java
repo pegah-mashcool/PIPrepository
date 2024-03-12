@@ -9,7 +9,7 @@ public class Main {
 
 	public Integer add(int i, int j) {
 		// TODO Auto-generated method stub
-		return i+j+1;
+		return i+j;
 	}
 
 	public Integer sub(int i, int j) {
@@ -25,6 +25,11 @@ public class Main {
 	public Integer div(int i, int j) {
 		// TODO Auto-generated method stub
 		return i/j;
+	}
+
+	public Integer mod(int i, int j) {
+		// TODO Auto-generated method stub
+		return i%j;
 	}
 
 

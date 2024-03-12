@@ -58,19 +58,21 @@ class TestMain {
 	void testmod() {
 		main=new Main();
 		assertEquals(1,main.mod(7,2));}
-	void testinc() {
+	@Test
+	void testdec() {
 		main=new Main();
-		assertEquals(2001,main.inc(2000));}
+		assertEquals(2,main.dec(3));}
+	
 	
 	@Test
 	void testSubADD() {
 		main=new Main();
 		assertEquals(4,main.sub(main.add(100,25),main.sub(125, 4)));}
-	
+	@Test
 	void testmuADD() {
 		main=new Main();
 		assertEquals(100,main.mul(main.add(13,12),main.mul(2, 2)));}
-	
+	@Test
 	void testall4() {
 		main=new Main();
 		assertEquals(25,main.div(main.mul(main.add(25,25),main.mul(1, 2)),main.sub(main.add(100,25),main.sub(125, 4))));}

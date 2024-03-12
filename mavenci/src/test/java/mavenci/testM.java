@@ -27,7 +27,9 @@ class testM {
 	void testadd() {
 		main=new Main();
 		assertEquals(2,main.add(2,2));
-	
-
 	}
+	@Test
+	void testsub() {
+		main=new Main();
+		assertEquals(2,main.sub(2,2));
 }

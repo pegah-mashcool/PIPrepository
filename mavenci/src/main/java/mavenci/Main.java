@@ -12,5 +12,10 @@ public class Main {
 		return i+j+1;
 	}
 
+	public Integer sub(int i, int j) {
+		// TODO Auto-generated method stub
+		return i-j;
+	}
+
 
 }

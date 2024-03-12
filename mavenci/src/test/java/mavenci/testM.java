@@ -26,7 +26,7 @@ class testM {
 	@Test
 	void testadd() {
 		main=new Main();
-		assertEquals(4,main.add(2,2));
+		assertEquals(2,main.add(2,2));
 	
 
 	}

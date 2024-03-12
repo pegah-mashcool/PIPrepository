@@ -43,7 +43,7 @@ class TestMain {
 	@Test
 	void testsub() {
 		main=new Main();
-		assertEquals(0,main.sub(-2,2));
+		assertEquals(-4,main.sub(-2,2));
 	
 }
 	@Test

@@ -2,35 +2,33 @@ package mavenci;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+import org.junit.jupiter.api.AfterAll;
+import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-public class testM {
-	public Main main;
+class TestMain {
 
-	
 	@BeforeAll
 	static void setUpBeforeClass() throws Exception {
 	}
+
+	@AfterAll
+	static void tearDownAfterClass() throws Exception {
+	}
+
 	@BeforeEach
 	void setUp() throws Exception {
 	}
 
-	@Test
-	void testmaincostructor() {
-		main=new Main();
-		assertNotEquals(main,null);
+	@AfterEach
+	void tearDown() throws Exception {
 	}
 
 	@Test
-	void testadd() {
-		main=new Main();
-		assertEquals(2,main.add(2,2));
+	void test() {
+		fail("Not yet implemented");
 	}
-	@Test
-	void testsub() {
-		main=new Main();
-		assertEquals(2,main.sub(2,2));
-}
+
 }

@@ -49,7 +49,7 @@ class TestMain {
 	@Test
 	void testmul() {
 		main=new Main();
-		assertEquals(4,main.mul(2,1));}
+		assertEquals(6,main.mul(2,3));}
 	@Test
 	void testdiv() {
 		main=new Main();

@@ -58,6 +58,9 @@ class TestMain {
 	void testmod() {
 		main=new Main();
 		assertEquals(1,main.mod(7,2));}
+	void testinc() {
+		main=new Main();
+		assertEquals(201,main.inc(200));}
 	
 	@Test
 	void testSubADD() {

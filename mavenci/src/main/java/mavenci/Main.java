@@ -32,5 +32,10 @@ public class Main {
 		return i%j;
 	}
 
+	public Integer inc(int i) {
+		// TODO Auto-generated method stub
+		return i+1;
+	}
+
 
 }

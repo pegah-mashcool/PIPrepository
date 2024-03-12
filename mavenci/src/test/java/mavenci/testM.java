@@ -33,3 +33,4 @@ class testM {
 		main=new Main();
 		assertEquals(2,main.sub(2,2));
 }
+}

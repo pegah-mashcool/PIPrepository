@@ -76,9 +76,18 @@ class TestMain {
 		main=new Main();
 		assertEquals(100,main.mul(main.add(13,12),main.mul(2, 2)));}
 	@Test
+	void testmudiv() {
+		main=new Main();
+		assertEquals(100,main.div(main.mul(4,100),main.mul(2, 2)));}
+	@Test
 	void testall4() {
 		main=new Main();
 		assertEquals(25,main.div(main.mul(main.add(25,25),main.mul(1, 2)),main.sub(main.add(100,25),main.sub(125, 4))));}
+	@Test
+	void testdmod() {
+		main=new Main();
+		assertEquals(0,main.dec(main.mod2(main.add(25,main.mul(12,main.sub(main.div(100,25),2))))));}
+	
 	
 	}
 

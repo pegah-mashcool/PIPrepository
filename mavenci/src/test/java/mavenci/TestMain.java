@@ -62,7 +62,10 @@ class TestMain {
 	void testdec() {
 		main=new Main();
 		assertEquals(2,main.dec(3));}
-	
+	@Test
+	void testmod2() {
+		main=new Main();
+		assertEquals(1,main.mod2(21));}
 	
 	@Test
 	void testSubADD() {

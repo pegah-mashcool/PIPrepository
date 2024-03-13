@@ -42,5 +42,10 @@ public class Main {
 		return i-1;
 	}
 
+	public Integer mod2(int i) {
+		// TODO Auto-generated method stub
+		return i%2;
+	}
+
 
 }
